@@ -141,16 +141,21 @@ class LoginScreen extends StatelessWidget {
                               Color(0xff332f2f), // Color for the regular text
                           fontSize: 12.5,
                         ),
-                        children: [
-                          TextSpan(
-                            text: "Signup", // Bold text
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold, // Make it bold
-                              color: Color(
-                                  0xff332f2f), // Ensure the same color is applied
-                            ),
-                          ),
-                        ],
+                      ),
+                    ),
+                  ),
+                  TextButton(
+                    onPressed: () {
+                      // Sign-up action
+                    },
+                    child: Text.rich(
+                      TextSpan(
+                        text: "Sign up", // Regular text
+                        style: TextStyle(
+                          color:
+                              Color(0xff332f2f), // Color for the regular text
+                          fontSize: 12.5,
+                        ),
                       ),
                     ),
                   ),
